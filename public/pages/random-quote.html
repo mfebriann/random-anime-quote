@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Random anime quote</title>
+		<link rel="stylesheet" href="../css/styles.css" />
+	</head>
+	<body class="bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white">
+		<main class="xl:container mx-auto px-5 pb-4">
+			<section>
+				<h1 class="text-3xl text-center mt-8 font-bold sm:text-4xl">Random anime quote</h1>
+				<form class="mt-8 text-center text-gray-700 flex gap-4 justify-center">
+					<button type="button" class="px-4 py-2 bg-gray-600 text-white rounded text-sm hover:bg-gray-500" id="btn-random">Random</button>
+				</form>
+				<div class="mt-8 flex justify-center gap-x-6 sm:mt-12" id="language">
+					<a href="?lang=id" class="underline font-bold hover:underline">Indonesia</a>
+					<span>|</span>
+					<a href="?lang=en" class="hover:underline font-light">English</a>
+				</div>
+
+				<hr class="my-10 border-gray-300" />
+
+				<div class="text-center" id="quotes">
+					<h2 class="text-2xl font-bold text-center w-full sm:text-3xl">Klik tombol random</h2>
+				</div>
+			</section>
+
+			<section class="mt-16 pt-4 border-t-[1px] border-gray-300">
+				<p class="text-lg font-medium mb-1">Halaman lain</p>
+				<a href="../../index.html" class="underline hover:opacity-60 pl-2 block">Choose random anime quote</a>
+			</section>
+		</main>
+		<footer class="xl:container mx-auto px-5 pb-5 mt-20">
+			<p>API powered by <a href="https://katanime.vercel.app/" class="underline font-semibold" target="_blank">Katanime</a></p>
+		</footer>
+		<script src="../js/app.js"></script>
+	</body>
+</html>
